@@ -1,0 +1,20 @@
+
+{
+  "team_name": "Odyssey_MACS",
+  "model_architecture": "Apex Soft-Voting Ensemble (0.70 Tuned LightGBM + 0.30 HistGradientBoosting)",
+  "raw_features_count": 38,
+  "engineered_features_count": 28,
+  "total_features": 66,
+  "decision_thresholds": {
+    "f1_optimal": 0.4660,
+    "cost_optimal_w40": 0.0158
+  },
+  "metrics_validation": {
+    "pr_auc": 0.99905,
+    "best_f1": 0.98183,
+    "precision": 0.9829,
+    "recall_catch_rate": 0.9807,
+    "missed_intrusions_fn_f1_mode": 848,
+    "min_cost_w40": 3497
+  }
+}

@@ -1,0 +1,13 @@
+# Large data files
+data/
+*.csv
+*.zip
+
+# Large model artifacts (>10MB / >100MB)
+*.joblib
+*.pkl
+
+# Python artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
